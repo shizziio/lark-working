@@ -5,7 +5,7 @@
     {
       "name": "hr",
       "path": "hr",
-      "repo": "git@github.com:shizziio/lark-working-hr.git",
+      "repo": "https://github.com/shizziio/lark-working-hr.git",
       "department": "Nhân sự",
       "functions": [
         "hr",
@@ -17,7 +17,7 @@
     {
       "name": "sales",
       "path": "sales",
-      "repo": "git@github.com:shizziio/lark-working-sales.git",
+      "repo": "https://github.com/shizziio/lark-working-sales.git",
       "department": "Kinh doanh",
       "functions": [
         "sales",
@@ -29,7 +29,7 @@
     {
       "name": "finance",
       "path": "finance",
-      "repo": "git@github.com:shizziio/lark-working-finance.git",
+      "repo": "https://github.com/shizziio/lark-working-finance.git",
       "department": "Tài chính",
       "functions": [
         "finance",
@@ -41,7 +41,7 @@
     {
       "name": "ops",
       "path": "ops",
-      "repo": "git@github.com:shizziio/lark-working-ops.git",
+      "repo": "https://github.com/shizziio/lark-working-ops.git",
       "department": "Vận hành",
       "functions": [
         "ops",
