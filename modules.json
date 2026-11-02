@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "note": "Nguồn sự thật của các module (sub-repo) trong workspace. Repo private trên GitHub cá nhân shizziio: người nhận cần được mời làm collaborator. Không ghi token vào URL.",
+  "modules": [
+    {
+      "name": "hr",
+      "path": "hr",
+      "repo": "git@github.com:shizziio/lark-working-hr.git",
+      "department": "Nhân sự",
+      "functions": [
+        "hr",
+        "recruiter",
+        "manager"
+      ],
+      "description": "Tuyển dụng, hồ sơ nhân sự, onboarding, chấm công"
+    },
+    {
+      "name": "sales",
+      "path": "sales",
+      "repo": "git@github.com:shizziio/lark-working-sales.git",
+      "department": "Kinh doanh",
+      "functions": [
+        "sales",
+        "account",
+        "manager"
+      ],
+      "description": "Pipeline, khách hàng, báo giá, báo cáo doanh số"
+    },
+    {
+      "name": "finance",
+      "path": "finance",
+      "repo": "git@github.com:shizziio/lark-working-finance.git",
+      "department": "Tài chính",
+      "functions": [
+        "finance",
+        "accountant",
+        "manager"
+      ],
+      "description": "Kế toán, thu chi, ngân sách, duyệt chi"
+    },
+    {
+      "name": "ops",
+      "path": "ops",
+      "repo": "git@github.com:shizziio/lark-working-ops.git",
+      "department": "Vận hành",
+      "functions": [
+        "ops",
+        "support",
+        "manager"
+      ],
+      "description": "Quy trình vận hành, hỗ trợ, theo dõi công việc"
+    }
+  ]
+}
