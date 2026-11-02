@@ -1,0 +1,24 @@
+# Harness project manifest. category(derived)=experiment from catalog/registry.yaml.
+apiVersion: harness/v1
+kind: Project
+metadata:
+  name: lark-working
+  group: personal
+  description: Workspace làm việc với Lark theo kiến trúc sub-repository cho các phòng ban (hr, sales, finance, ops), dùng BMAD.
+  tags: [Lark, BMAD, sub-repo]
+spec:
+  lifecycle: experimental
+  components:
+  - { name: hr, path: hr, type: other }
+  - { name: sales, path: sales, type: other }
+  - { name: finance, path: finance, type: other }
+  - { name: ops, path: ops, type: other }
+  relations:
+    uses:
+    - plugin:bmad@6.7.8
+    - plugin:lark@1.1.0
+    - plugin:harness-lark@0.7.0
+    - plugin:meta-builder@0.1.0
+  knowledge:
+  - .harness/CONTEXT.md
+  - CLAUDE.md

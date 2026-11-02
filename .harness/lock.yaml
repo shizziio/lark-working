@@ -1,0 +1,8 @@
+registry:
+  name: harness
+  source: git+file:///Users/mac/Documents/workspace/personal/harness
+installed:
+  - { asset: plugin:bmad, version: "6.7.8", mode: global, installedAt: "2026-11-02", projectLocal: ["_bmad/config.toml", "_bmad/config.user.toml", "_bmad/custom", "_bmad-output"] }
+  - { asset: plugin:lark, version: "1.1.0", mode: global, installedAt: "2026-11-02", projectLocal: [] }
+  - { asset: plugin:harness-lark, version: "0.7.0", mode: global, installedAt: "2026-11-02", projectLocal: [] }
+  - { asset: plugin:meta-builder, version: "0.1.0", mode: global, installedAt: "2026-11-02", projectLocal: [] }

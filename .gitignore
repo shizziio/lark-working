@@ -1,0 +1,10 @@
+.DS_Store
+_bmad-output/
+*.user.toml
+.env
+# sub-repos (git riêng)
+/hr/
+/sales/
+/finance/
+/ops/
+__pycache__/
