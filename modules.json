@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "note": "Nguồn sự thật của các module (sub-repo) trong workspace. Repo private trên GitHub cá nhân shizziio: người nhận cần được mời làm collaborator. Không ghi token vào URL.",
+  "note": "Nguồn sự thật của các module (sub-repo) trong workspace. Repo public trên GitHub cá nhân shizziio. Không ghi token vào URL.",
   "modules": [
     {
       "name": "hr",
